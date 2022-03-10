@@ -22,8 +22,8 @@ const processVar = new Promise ((resolve, reject) => {
 Promise.all([
     exampleVar, 
     processVar
-]).then(message) => {
-    console.log(message)
+]).then((message) => {
+    console.log(message);
 }).catch((message) => {
-    console.log('There is an error with the request or response')
-})
+    console.log('There is an error with the request or response');
+});
